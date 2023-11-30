@@ -1,0 +1,5 @@
+C:\Users\pups\source\repos\ksr\ksr\x64\Debug\ksr.vcxproj.AssemblyReference.cache
+C:\Users\pups\source\repos\ksr\ksr\x64\Debug\ksr.MyForm.resources
+C:\Users\pups\source\repos\ksr\ksr\x64\Debug\ksr.Result.resources
+C:\Users\pups\source\repos\ksr\ksr\x64\Debug\ksr.Task.resources
+C:\Users\pups\source\repos\ksr\ksr\x64\Debug\ksr.vcxproj.GenerateResource.cache

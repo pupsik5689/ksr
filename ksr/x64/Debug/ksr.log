@@ -1,0 +1,56 @@
+﻿  MyForm.cpp
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(566,13): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(593,38): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(596,38): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(597,38): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(599,38): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(600,38): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(625,87): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(625,84): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(643,85): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(660,88): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(677,88): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(677,85): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(690,86): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(702,89): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(730,85): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.h(730,82): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\pups\source\repos\ksr\ksr\MyForm.cpp(7,32): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  Result.cpp
+  Task.cpp
+  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
+  Создание кода...
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  ksr.vcxproj -> C:\Users\pups\source\repos\ksr\x64\Debug\Ksr.exe
