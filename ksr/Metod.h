@@ -1,4 +1,4 @@
-п»ї#pragma once
+#pragma once
 
 namespace Ksr {
 
@@ -10,24 +10,24 @@ namespace Ksr {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// РЎРІРѕРґРєР° РґР»СЏ Task
+	/// Сводка для Metod
 	/// </summary>
-	public ref class Task : public System::Windows::Forms::Form
+	public ref class Metod : public System::Windows::Forms::Form
 	{
 	public:
-		Task(void)
+		Metod(void)
 		{
 			InitializeComponent();
 			//
-			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
+			//TODO: добавьте код конструктора
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
+		/// Освободить все используемые ресурсы.
 		/// </summary>
-		~Task()
+		~Metod()
 		{
 			if (components)
 			{
@@ -39,14 +39,14 @@ namespace Ksr {
 
 	private:
 		/// <summary>
-		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
+		/// Обязательная переменная конструктора.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
-		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
+		/// Требуемый метод для поддержки конструктора — не изменяйте 
+		/// содержимое этого метода с помощью редактора кода.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -56,38 +56,25 @@ namespace Ksr {
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->ImageLocation = L"C:\\Users\\pups\\Desktop\\chm.png";
-			this->pictureBox1->Location = System::Drawing::Point(13, 13);
+			this->pictureBox1->ImageLocation = L"C:\\Users\\pups\\Desktop\\metod.png";
+			this->pictureBox1->Location = System::Drawing::Point(1, -2);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(999, 444);
+			this->pictureBox1->Size = System::Drawing::Size(343, 344);
 			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
 			// 
-			// Task
+			// Metod
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->BackColor = System::Drawing::Color::White;
-			this->ClientSize = System::Drawing::Size(1014, 501);
+			this->ClientSize = System::Drawing::Size(345, 334);
 			this->Controls->Add(this->pictureBox1);
-			this->Name = L"Task";
-			this->Text = L"РћРїРёСЃР°РЅРёРµ Р·Р°РґР°С‡Рё";
-			this->Load += gcnew System::EventHandler(this, &Task::Task_Load);
+			this->Name = L"Metod";
+			this->Text = L"Описание метода";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
-
-
-	private: System::Void Task_Load(System::Object^ sender, System::EventArgs^ e) 
-	{
-		
-
-	}
-
-
-
-
 	};
 }

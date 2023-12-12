@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 namespace Ksr {
 
@@ -10,7 +10,7 @@ namespace Ksr {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для Result
+	/// РЎРІРѕРґРєР° РґР»СЏ Result
 	/// </summary>
 	public ref class Result : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace Ksr {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~Result()
 		{
@@ -40,11 +40,71 @@ namespace Ksr {
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column2;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column3;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column4;
+	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column10;
+	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column11;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column5;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column6;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column7;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column8;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^ Column9;
+
+	public:
+
+
+
+
+
+
+
+
+
+
+
+	public:
+
+
+
+
+
+
+
+
+
+
+
+	public:
+
+
+
+
+
+
+
+
+
+
+
+	public:
+
+
+
+
+
+
+
+
+
+
+
+	public:
+
+
+
+
+
+
+
+
 
 	public:
 
@@ -89,14 +149,14 @@ namespace Ksr {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -105,6 +165,8 @@ namespace Ksr {
 			this->Column2 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column3 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column4 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+			this->Column10 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+			this->Column11 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column5 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column6 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column7 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
@@ -123,15 +185,16 @@ namespace Ksr {
 			this->dataGridView1->BackgroundColor = System::Drawing::SystemColors::Control;
 			this->dataGridView1->BorderStyle = System::Windows::Forms::BorderStyle::None;
 			this->dataGridView1->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
-			this->dataGridView1->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(9) {
+			this->dataGridView1->Columns->AddRange(gcnew cli::array< System::Windows::Forms::DataGridViewColumn^  >(11) {
 				this->Column1,
-					this->Column2, this->Column3, this->Column4, this->Column5, this->Column6, this->Column7, this->Column8, this->Column9
+					this->Column2, this->Column3, this->Column4, this->Column10, this->Column11, this->Column5, this->Column6, this->Column7, this->Column8,
+					this->Column9
 			});
 			this->dataGridView1->Location = System::Drawing::Point(12, 12);
 			this->dataGridView1->Name = L"dataGridView1";
 			this->dataGridView1->ReadOnly = true;
 			this->dataGridView1->RowHeadersVisible = false;
-			this->dataGridView1->Size = System::Drawing::Size(1009, 576);
+			this->dataGridView1->Size = System::Drawing::Size(1477, 576);
 			this->dataGridView1->TabIndex = 0;
 			// 
 			// Column1
@@ -146,6 +209,7 @@ namespace Ksr {
 			this->Column2->HeaderText = L"xi";
 			this->Column2->Name = L"Column2";
 			this->Column2->ReadOnly = true;
+			this->Column2->Width = 150;
 			// 
 			// Column3
 			// 
@@ -161,6 +225,20 @@ namespace Ksr {
 			this->Column4->ReadOnly = true;
 			this->Column4->Width = 150;
 			// 
+			// Column10
+			// 
+			this->Column10->HeaderText = L"v\'i";
+			this->Column10->Name = L"Column10";
+			this->Column10->ReadOnly = true;
+			this->Column10->Width = 150;
+			// 
+			// Column11
+			// 
+			this->Column11->HeaderText = L"v\'2i";
+			this->Column11->Name = L"Column11";
+			this->Column11->ReadOnly = true;
+			this->Column11->Width = 150;
+			// 
 			// Column5
 			// 
 			this->Column5->HeaderText = L"|vi - v2i|";
@@ -170,7 +248,7 @@ namespace Ksr {
 			// 
 			// Column6
 			// 
-			this->Column6->HeaderText = L"ОЛП";
+			this->Column6->HeaderText = L"РћР›Рџ";
 			this->Column6->Name = L"Column6";
 			this->Column6->ReadOnly = true;
 			this->Column6->Width = 150;
@@ -180,26 +258,25 @@ namespace Ksr {
 			this->Column7->HeaderText = L"hi";
 			this->Column7->Name = L"Column7";
 			this->Column7->ReadOnly = true;
+			this->Column7->Width = 150;
 			// 
 			// Column8
 			// 
-			this->Column8->HeaderText = L"C1";
+			this->Column8->HeaderText = L"РЈРј. С€Р°РіР°";
 			this->Column8->Name = L"Column8";
 			this->Column8->ReadOnly = true;
-			this->Column8->Width = 50;
 			// 
 			// Column9
 			// 
-			this->Column9->HeaderText = L"C2";
+			this->Column9->HeaderText = L"РЈРІ. С€Р°РіР°";
 			this->Column9->Name = L"Column9";
 			this->Column9->ReadOnly = true;
-			this->Column9->Width = 50;
 			// 
 			// Result
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1033, 603);
+			this->ClientSize = System::Drawing::Size(1501, 603);
 			this->Controls->Add(this->dataGridView1);
 			this->Name = L"Result";
 			this->Text = L"Result";
